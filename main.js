@@ -19,11 +19,6 @@ signInButton.addEventListener("click", () => {
   container.classList.remove("right-pannel-active");
 });
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDpWePI1k85gIbLQtxtRQQS-YV_NsbvWkA",
-  authDomain: "registeration-page-d57d9.firebaseapp.com",
-  projectId: "registeration-page-d57d9",
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -66,3 +61,4 @@ document.getElementById("loginForm").addEventListener("submit", (e) => {
       alert(error.message);
     });
 });
+
